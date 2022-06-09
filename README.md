@@ -10,7 +10,7 @@ Additionally I'd like everyone to get a starting point for their own project. So
 - a Raspberry Pi (3B tested)
 - an SD Card (8+ GB) with Raspbian Desktop installed
 - the [Adafruit RGB Matrix Bonnet](https://www.adafruit.com/product/3211) or the [Adafruit RGB Matrix HAT for Raspberry Pi](https://www.adafruit.com/product/2345)
-- 2x 3mm (P3) 32x64px LED Matrix displays, for example [these ones](https://www.adafruit.com/product/2279)
+- 2x 3mm (P3) 64x32px LED Matrix displays, for example [these ones](https://www.adafruit.com/product/2279)
 - a power connector for your Raspberry Pi (usually not included)
 - a 5V power supply for your Bonnet or HAT! This is not included and needs a 5,5mm/2,1mm barrel connector!
 
