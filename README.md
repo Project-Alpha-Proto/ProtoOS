@@ -16,3 +16,4 @@ Additionally I'd like everyone to get a starting point for their own project. So
 - the JtingF Protogen kit found [here](https://www.etsy.com/listing/1006039713/cm1-protogen-kit-no-electronics-slafdm), alternatively you can print your own, the files can be found [here](https://www.patreon.com/JtingF)
 
 ### Setting up your Raspberry Pi
+Too tired right now for this, surely this can wait until tomorrow... ;) 
