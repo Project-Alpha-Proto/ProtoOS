@@ -28,10 +28,10 @@ You'll now get a step by step explanation what you'll need to do software-wise.
 2. Set up your Internet Connection on the RasPi
 3. Open the Terminal
 4. Make updates typing these commands one after another:
-´´´
+```
 sudo apt-get update
 sudo apt-get upgrade
 sudo apt-get dist-upgrade
 sudo rpi-update
-´´´
+```
 This will check for updates and download everything needed.
