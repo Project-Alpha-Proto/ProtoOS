@@ -36,4 +36,6 @@ sudo rpi-update
 reboot
 ```
 This will check for updates and download everything needed and then reboot. After the reboot, open your Terminal again
+
 5. Make a new directory for your stuff
+
