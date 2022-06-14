@@ -37,5 +37,8 @@ reboot
 ```
 This will check for updates and download everything needed and then reboot. After the reboot, open your Terminal again
 
-5. Make a new directory for your stuff
-
+5. Make a new directory for your stuff naming it Proto
+6. Open your new directory in your file browser
+7. Rightclick and select "Open Terminal here"
+8. Type "git clone https://github.com/Project-Alpha-Proto/ProtoOS" and execute it
+9. The complete software should now download to this directory including a directory named "ProtoOS" - thats the thing you need!
