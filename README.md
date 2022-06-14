@@ -42,3 +42,33 @@ This will check for updates and download everything needed and then reboot. Afte
 7. Rightclick and select "Open Terminal here"
 8. Type "git clone https://github.com/Project-Alpha-Proto/ProtoOS" and execute it
 9. The complete software should now download to this directory including a directory named "ProtoOS" - thats the thing you need!
+10. Make another directory for the LED library
+11. Now do (7) and (8) again but instead clone the hzeller library found here: https://github.com/hzeller/rpi-rgb-led-matrix
+
+## Testing your displays
+We're ready to test your displays now. For that you need to go into the hzeller library files you just downloaded and open your terminal in /rpi-rgb-led-matrix.
+
+You now have to compile the files first before you can actually execute them. That's because the code is in C which the Raspberry cannot natively run. Compiling the files can be done with
+
+```
+make -C examples-api-use
+```
+
+Now you just have to wait a litte bit and when the compiling is finished, you can go to your directory and start a test program with
+```
+cd examples-api-used
+sudo ./minimal-example
+```
+When the displays show something now, they work and we can move to our next step:
+### Actually using the displays right
+You may have noticed, that your displays aren't showing what they should show. Thats because we didn't set them up correctly. We can use a few methods for that. The easiest one is giving extra parameters with "--(parameter name)".
+First things first: There are a lot of parameters in the hzeller library. We only need to take a look at a few of them. The most interesting ones are --led-cols, --led-rows and --led-chain.
+I'll explain what they do in a minute. But now lets actually do it the right way:
+
+Exit your program by typing the combination Ctrl+C - like you would copy something on Windows.
+
+Type the following in your Terminal window and execute it to see magic!
+```
+sudo ./minimal-example --led-cols=64 --led-rows=32 --led-chain=2
+```
+Bingo! You have now two functioning displays! (Hopefully)
